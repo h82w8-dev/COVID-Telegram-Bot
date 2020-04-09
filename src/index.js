@@ -1,7 +1,7 @@
 const Telegraf = require('telegraf');
 const covidService = require('./services/covid');
 const formatCountryMsg = require('./messages/country')
-const BOT_TOKEN = process.env.BOT_TOKEN || '1215801789:AAE5PO677rnyolaKf5Gr0EtaY1v4hSQgfQU';
+const BOT_TOKEN = process.env.BOT_TOKEN;
 
 const bot = new Telegraf(BOT_TOKEN);
 
