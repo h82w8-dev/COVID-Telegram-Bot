@@ -1,19 +1,18 @@
 {
   "name": "covid-bot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "engines": {
-      "node": "13.12.0"
-  },
-  "author": "Maxim hardcore",
+  "keywords": [],
+  "author": "Roman Akhromieiev <qpbd@ukr.net>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
-    "country-emoji": "^1.5.0",
-    "telegraf": "^3.37.0"
+    "axios": "0.19.2",
+    "country-emoji": "1.5.0",
+    "telegraf": "3.36.0"
   }
 }
